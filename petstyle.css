@@ -23,6 +23,16 @@ nav li {
     padding: 8px;
 }
 
+nav li h1 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    border: none;
+    padding: 8px;
+    font-size: 32px;
+}
+
 nav a {
     color: #BED3E5;
     text-decoration: underline;
@@ -33,7 +43,7 @@ nav a {
 /* index page */
 .indexBody {
     font-family: 'Open Sans', Arial, sans-serif;
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     background-color:#9b1086;
     min-height: 100vh;
