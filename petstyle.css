@@ -151,18 +151,33 @@ nav a {
     position: relative;
 }
 
-.mangoH2 {
-    font-family: 'Solway', Arial, sans-serif;
-    margin: 1rem;
+.mangoPage {
+    margin: 2rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.tigerTraining {
+    margin: 4rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
+.mangoH2 {
+    font-family: 'Solway', Arial, sans-serif;
+}
+
 .mangoP {
     font-family: 'Solway', Arial, sans-serif;
-    margin: 1rem;
+}
+
+.mangoCW {
+    margin: 4rem;
     padding: 0;
     display: flex;
     flex-direction: column;
