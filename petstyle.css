@@ -1,9 +1,41 @@
+main {
+    padding: 0px;
+    width: 100%;
+}
+
+nav {
+    background-color: #17233B;
+    padding: 10px;
+}
+
+a ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1.5px solid #BED3E5;
+    padding: 8px;
+}
+
+nav a {
+    color: #BED3E5;
+    text-decoration: underline;
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+}
+
 /* index page */
-.indexBody body {
+.indexBody {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#BED3E5;
+    background-color:#9b1086;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,8 +43,12 @@
     position: relative;
 }
 
+/*.indexContainer {
+
+} */
+
 /* cookie's page */
-.cookieBody body {
+.cookieBody {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -25,7 +61,7 @@
 }
 
 /* minnie's page */
-.minnieBody body {
+.minnieBody {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -38,7 +74,7 @@
 }
 
 /* turtle's page */
-.turtleBody body {
+.turtleBody {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -51,7 +87,7 @@
 }
 
 /* neville's page */
-.nevilleBody body {
+.nevilleBody {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -64,7 +100,7 @@
 }
 
 /* mango's page */
-.mangoBody body {
+.mangoBody {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
