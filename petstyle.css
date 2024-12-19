@@ -23,14 +23,14 @@ nav li {
     padding: 8px;
 }
 
-nav li h1 {
+.dernerPets {
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
     align-items: center;
     border: none;
     padding: 8px;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 nav a {
@@ -56,6 +56,30 @@ nav a {
 /*.indexContainer {
 
 } */
+
+.indexMain h2 {
+    text-align: center;  
+}
+
+.indexMain h3 {
+    text-align: center;
+}
+
+.petsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.petsList li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1.5px solid #BED3E5;
+    padding: 8px;
+}
 
 /* cookie's page */
 .cookieBody {
