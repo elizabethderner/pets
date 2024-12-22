@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    color:#8ae6ff;
+    color:#a9d8e5;
 }
 
 /* index page */
@@ -60,6 +60,7 @@ nav a:hover {
     flex-direction: column;
     overflow-x: hidden;
     position: relative;
+    color:#012832;
 }
 
 /*.indexContainer {
@@ -67,11 +68,15 @@ nav a:hover {
 } */
 
 .indexMain h2 {
-    text-align: center;  
+    text-align: center;
+    font-size: 36px;  
 }
 
 .indexMain h3 {
     text-align: center;
+    font-family: 'Gantari', Arial, sans-serif;
+    font-size: 24px;
+    color:#073f4d;
 }
 
 .indexIntro {
@@ -86,7 +91,7 @@ nav a:hover {
 }
 
 .petsList li {
-    font-family: 'Solway', Arial, sans-serif;
+    font-family: 'Gantari', Arial, sans-serif;
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
@@ -108,15 +113,23 @@ nav a:hover {
 }
 
 .petsList a:hover {
-    color: #8ae6ff;
+    color: #a9d8e5;
 }
 
 /* cookie's page */
+.cookieNav {
+    background-color: #6e284e;
+}
+
+.cookieNav a:hover {
+    color: #e2a3c6;
+}
+
 .cookieBody {
-    font-family: 'Solway', Arial, sans-serif;
+    font-family: 'Gantari', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#BED3E5;
+    background-color:#b6819e;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -125,28 +138,46 @@ nav a:hover {
 }
 
 .cookiePage {
-    margin: 2rem;
+    font-family: 'Solway', Arial, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
     text-align: center;
+    color:#4f0c31;
 }
 
 .reallyWant {
-    margin: 4rem;
+    margin: 6rem;
+    margin-top: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
+    color: #2c051b;
+}
+
+.reallyWant li {
+    font-size: 20px;
+    margin-bottom: 1rem;
 }
 
 /* minnie's page */
+.minnieNav {
+    background-color: #226ea1;
+}
+
+.minnieNav a:hover {
+    color: #a4d5f6;
+}
+
 .minnieBody {
     font-family: 'Solway', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#BED3E5;
+    background-color:#52a1d6;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -161,14 +192,23 @@ nav a:hover {
     flex-direction: column;
     position: relative;
     text-align: center;
+    color: #1a4e71;
 }
 
 .ruleList {
-    margin: 4rem;
+    margin: 6rem;
+    margin-top: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
+    color:#12354d;
+    font-family: 'Gantari', Arial, sans-serif;
+}
+
+.ruleList li {
+    font-size: 20px;
+    margin-bottom: 1rem;
 }
 
 /* turtle's page */
