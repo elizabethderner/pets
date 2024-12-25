@@ -191,7 +191,7 @@ nav a:hover {
 }
 
 .reallyWant {
-    margin: 6rem;
+    margin-bottom: 2rem;
     margin-top: 0;
     margin-right: 0;
     margin-left: 12rem;
@@ -264,7 +264,7 @@ nav a:hover {
 }
 
 .ruleList {
-    margin: 6rem;
+    margin-bottom: 2rem;
     margin-top: 0;
     margin-right: 0;
     margin-left: 12rem;
@@ -340,7 +340,7 @@ nav a:hover {
 }
 
 .grievanceList {
-    margin: 6rem;
+    margin-bottom: 2rem;
     margin-top: 0;
     margin-right: 0;
     margin-left: 12rem;
@@ -414,8 +414,9 @@ nav a:hover {
 }
 
 .heyGuys, .worried {
-    margin: 6rem;
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 12rem;
     margin-bottom: 2rem;
     padding: 0;
     display: flex;
@@ -425,8 +426,33 @@ nav a:hover {
 
 .heyGuys li, .worried li {
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
+
+.nevilleContainer {
+    overflow: auto; /* Clearfix */
+  }
+  
+  .nevilleContent {
+    float: left;
+    width: 60%; /* Adjust as needed */
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .nevillePagePhoto {
+    float: right;
+    width: 22%; /* Adjust as needed */
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 12rem;
+  }
+  
+  .nevillePagePhoto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 /* mango's page */
 .mangoNav {
@@ -462,7 +488,10 @@ nav a:hover {
 }
 
 .tigerTraining {
-    margin: 4rem;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -483,8 +512,9 @@ nav a:hover {
 }
 
 .mangoCW {
-    margin: 4rem;
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 12rem;
     margin-bottom: 2rem;
     padding: 0;
     display: flex;
@@ -492,3 +522,28 @@ nav a:hover {
     position: relative;
     list-style: none;
 }
+
+.mangoContainer {
+    overflow: auto; /* Clearfix */
+  }
+  
+  .mangoContent {
+    float: left;
+    width: 60%; /* Adjust as needed */
+    margin-right: 0;
+    margin-bottom: 6rem;
+  }
+  
+  .mangoPagePhoto {
+    float: right;
+    width: 22%; /* Adjust as needed */
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 12rem;
+  }
+  
+  .mangoPagePhoto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
