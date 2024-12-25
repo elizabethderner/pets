@@ -71,7 +71,7 @@ nav a:hover {
     text-align: center;
     font-family: 'Gantari', Arial, sans-serif;
     font-size: 24px;
-    color:#073f4d;
+    color:#05333e;
 }
 
 .indexIntro {
@@ -130,6 +130,33 @@ nav a:hover {
     color: #a9d8e5;
 }
 
+.indexPhotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.indexPhotos li {
+    margin: 0 25px;
+    flex: 1;
+}
+
+.indexPhotos img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
 /* cookie's page */
 .cookieNav {
     background-color: #6e284e;
@@ -166,11 +193,14 @@ nav a:hover {
 .reallyWant {
     margin: 6rem;
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 12rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
     color: #2c051b;
+    width: 60%;
 }
 
 .reallyWant li {
@@ -178,6 +208,30 @@ nav a:hover {
     margin-bottom: 1.5rem;
 }
 
+.cookieContainer {
+    overflow: auto; /* Clearfix */
+  }
+  
+  .cookieContent {
+    float: left;
+    width: 60%; /* Adjust as needed */
+    margin-right: 0;
+  }
+  
+  .cookiePagePhoto {
+    float: right;
+    width: 22%; /* Adjust as needed */
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 12rem;
+  }
+  
+  .cookiePagePhoto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 /* minnie's page */
 .minnieNav {
     background-color: #226ea1;
@@ -365,6 +419,7 @@ nav a:hover {
 
 .tigerTraining li {
     margin-bottom: 1.5rem;
+    font-size: 20px;
 }
 
 .mangoH2 {
