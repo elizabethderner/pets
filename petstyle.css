@@ -266,6 +266,8 @@ nav a:hover {
 .ruleList {
     margin: 6rem;
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 12rem;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -280,6 +282,30 @@ nav a:hover {
     font-size: 20px;
     margin-bottom: 1.5rem;
 }
+
+.minnieContainer {
+    overflow: auto; /* Clearfix */
+  }
+  
+  .minnieContent {
+    float: left;
+    width: 60%; /* Adjust as needed */
+    margin-right: 0;
+  }
+  
+  .minniePagePhoto {
+    float: right;
+    width: 22%; /* Adjust as needed */
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 12rem;
+  }
+  
+  .minniePagePhoto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 /* turtle's page */
 .turtleNav {
@@ -316,6 +342,8 @@ nav a:hover {
 .grievanceList {
     margin: 6rem;
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 12rem;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -327,6 +355,30 @@ nav a:hover {
     font-size: 20px;
     margin-bottom: 1.5rem;
 }
+
+.turtleContainer {
+    overflow: auto; /* Clearfix */
+  }
+  
+  .turtleContent {
+    float: left;
+    width: 60%; /* Adjust as needed */
+    margin-right: 0;
+  }
+  
+  .turtlePagePhoto {
+    float: right;
+    width: 22%; /* Adjust as needed */
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 12rem;
+  }
+  
+  .turtlePagePhoto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 /* neville's page */
 .nevilleNav {
