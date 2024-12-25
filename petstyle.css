@@ -20,7 +20,6 @@ nav li {
     margin-right: 10px;
     margin-left: 10px;
     align-items: center;
-
     padding: 8px;
 }
 
@@ -63,10 +62,6 @@ nav a:hover {
     color:#012832;
 }
 
-/*.indexContainer {
-
-} */
-
 .indexMain h2 {
     text-align: center;
     font-size: 36px;  
@@ -97,9 +92,28 @@ nav a:hover {
     margin-left: 10px;
     align-items: center;
     border: none;
-    background-color: #015c75;
     padding: 18px;
     font-size: 18px;
+}
+
+.cookieButton {
+    background-color: #6e284e;
+}
+
+.minnieButton {
+    background-color: #226ea1;
+}
+
+.turtleButton {
+    background-color: #5a0860;
+}
+
+.nevilleButton {
+    background-color: #5f0b0b;
+}
+
+.mangoButton {
+    background-color: #d3651b;
 }
 
 .petsList a {
