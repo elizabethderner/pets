@@ -20,7 +20,7 @@ nav li {
     margin-right: 10px;
     margin-left: 10px;
     align-items: center;
-    
+
     padding: 8px;
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
 
 .reallyWant li {
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* minnie's page */
@@ -177,7 +177,7 @@ nav a:hover {
     font-family: 'Solway', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#52a1d6;
+    background-color:#82afcd;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -192,7 +192,7 @@ nav a:hover {
     flex-direction: column;
     position: relative;
     text-align: center;
-    color: #1a4e71;
+    color: #1c547a;
 }
 
 .ruleList {
@@ -202,21 +202,31 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     position: relative;
-    color:#12354d;
+    color:#0f3955;
     font-family: 'Gantari', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .ruleList li {
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* turtle's page */
+.turtleNav {
+    background-color: #5a0860;
+}
+
+.turtleNav a:hover {
+    color: #e2b4e6;
+}
+
 .turtleBody {
-    font-family: 'Solway', Arial, sans-serif;
+    font-family: 'Gantari', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#BED3E5;
+    background-color:#aa76ae;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -225,72 +235,110 @@ nav a:hover {
 }
 
 .turtlePage {
+    font-family: 'Solway', Arial, sans-serif;
     margin: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
     text-align: center;
+    color:#48064d;
 }
 
 .grievanceList {
-    margin: 4rem;
+    margin: 6rem;
+    margin-top: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
+    color:#28042a;
+}
+
+.grievanceList li {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
 }
 
 /* neville's page */
+.nevilleNav {
+    background-color: #5f0b0b;
+}
+
+.nevilleNav a:hover {
+    color: #b67b7b;
+}
+
 .nevilleBody {
-    font-family: 'Solway', Arial, sans-serif;
+    font-family: 'Gantari', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#BED3E5;
+    background-color:#c77a7a;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     position: relative;
+    color:#360404;
 }
 
 .nevillePage {
+    font-family: 'Solway', Arial, sans-serif;
     margin: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
     text-align: center;
+    color:#4e0909;
 }
 
 .heyGuys, .worried {
-    margin: 4rem;
+    margin: 6rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
+.heyGuys li, .worried li {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
 /* mango's page */
+.mangoNav {
+    background-color: #d3651b;
+}
+
+.mangoNav a:hover {
+    color: #f6bb94;
+}
+
 .mangoBody {
-    font-family: 'Solway', Arial, sans-serif;
+    font-family: 'Gantari', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#BED3E5;
+    background-color:#e69e6e;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     position: relative;
+    color:#5d2500;
 }
 
 .mangoPage {
+    font-family: 'Solway', Arial, sans-serif;
     margin: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
     text-align: center;
+    color:#74340a
 }
 
 .tigerTraining {
@@ -301,8 +349,12 @@ nav a:hover {
     position: relative;
 }
 
+.tigerTraining li {
+    margin-bottom: 1.5rem;
+}
+
 .mangoH2 {
-    font-family: 'Solway', Arial, sans-serif;
+    font-family: 'Gantari', Arial, sans-serif;
 }
 
 .mangoP {
@@ -311,8 +363,11 @@ nav a:hover {
 
 .mangoCW {
     margin: 4rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
+    list-style: none;
 }
