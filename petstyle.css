@@ -209,18 +209,18 @@ nav a:hover {
 }
 
 .cookieContainer {
-    overflow: auto; /* Clearfix */
+    overflow: auto;
   }
   
   .cookieContent {
     float: left;
-    width: 60%; /* Adjust as needed */
+    width: 60%;
     margin-right: 0;
   }
   
   .cookiePagePhoto {
     float: right;
-    width: 22%; /* Adjust as needed */
+    width: 22%;
     margin: 2rem;
     margin-top: 2rem;
     margin-right: 12rem;
@@ -284,18 +284,18 @@ nav a:hover {
 }
 
 .minnieContainer {
-    overflow: auto; /* Clearfix */
+    overflow: auto;
   }
   
   .minnieContent {
     float: left;
-    width: 60%; /* Adjust as needed */
+    width: 60%;
     margin-right: 0;
   }
   
   .minniePagePhoto {
     float: right;
-    width: 22%; /* Adjust as needed */
+    width: 22%; 
     margin: 2rem;
     margin-top: 2rem;
     margin-right: 12rem;
@@ -357,18 +357,18 @@ nav a:hover {
 }
 
 .turtleContainer {
-    overflow: auto; /* Clearfix */
+    overflow: auto;
   }
   
   .turtleContent {
     float: left;
-    width: 60%; /* Adjust as needed */
+    width: 60%;
     margin-right: 0;
   }
   
   .turtlePagePhoto {
     float: right;
-    width: 22%; /* Adjust as needed */
+    width: 22%;
     margin: 2rem;
     margin-top: 2rem;
     margin-right: 12rem;
@@ -430,19 +430,19 @@ nav a:hover {
 }
 
 .nevilleContainer {
-    overflow: auto; /* Clearfix */
+    overflow: auto;
   }
   
   .nevilleContent {
     float: left;
-    width: 60%; /* Adjust as needed */
+    width: 60%;
     margin-right: 0;
     margin-bottom: 2rem;
   }
   
   .nevillePagePhoto {
     float: right;
-    width: 22%; /* Adjust as needed */
+    width: 22%;
     margin: 2rem;
     margin-top: 2rem;
     margin-right: 12rem;
@@ -524,19 +524,19 @@ nav a:hover {
 }
 
 .mangoContainer {
-    overflow: auto; /* Clearfix */
+    overflow: auto;
   }
   
   .mangoContent {
     float: left;
-    width: 60%; /* Adjust as needed */
+    width: 60%;
     margin-right: 0;
     margin-bottom: 6rem;
   }
   
   .mangoPagePhoto {
     float: right;
-    width: 22%; /* Adjust as needed */
+    width: 22%; 
     margin: 2rem;
     margin-top: 2rem;
     margin-right: 12rem;
@@ -598,7 +598,7 @@ nav a:hover {
 }
 
 .bananaContainer {
-    overflow: auto; /* Clearfix */
+    overflow: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -607,13 +607,13 @@ nav a:hover {
   
   .bananaContent {
     float: center;
-    width: 100%; /* Adjust as needed */
+    width: 100%;
     margin-right: 0;
   }
   
   .bananaPagePhoto {
     float: center;
-    width: 45%; /* Adjust as needed */
+    width: 45%;
     margin: 2rem auto;
     margin-top: 0;
   }
@@ -624,3 +624,99 @@ nav a:hover {
     display: block;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 768px) {
+    /* Navigation */
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .dernerPets {
+      font-size: 18px;
+    }
+  
+    nav a {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    /* Index page */
+    .indexMain h2 {
+      font-size: 28px;
+    }
+  
+    .indexMain h3 {
+      font-size: 20px;
+    }
+  
+    .indexIntro {
+      margin: 1rem;
+    }
+  
+    .petsList li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .indexPhotos {
+      flex-direction: column;
+    }
+  
+    .indexPhotos li {
+      margin: 10px 0;
+    }
+  
+    .indexPhotos img {
+      max-width: 100%;
+    }
+  
+    /* Content pages */
+    .cookieContent, .minnieContent, .turtleContent, .nevilleContent, .mangoContent {
+      float: none;
+      width: 100%;
+    }
+  
+    .cookiePagePhoto, .minniePagePhoto, .turtlePagePhoto, .nevillePagePhoto, .mangoPagePhoto {
+      float: none;
+      width: 80%;
+      margin: 1rem auto;
+    }
+  
+    .reallyWant, .ruleList, .grievanceList, .heyGuys, .worried, .tigerTraining {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .reallyWant li, .ruleList li, .grievanceList li, .heyGuys li, .worried li, .tigerTraining li {
+      font-size: 16px;
+    }
+  
+    /* Banana Club */
+    .bananaText h2 {
+      font-size: 24px;
+    }
+  
+    .bananaPagePhoto {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .indexMain h2 {
+      font-size: 24px;
+    }
+  
+    .indexMain h3 {
+      font-size: 18px;
+    }
+  
+    .petsList li {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    .reallyWant li, .ruleList li, .grievanceList li, .heyGuys li, .worried li, .tigerTraining li {
+      font-size: 14px;
+    }
+  }  
