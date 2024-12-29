@@ -23,7 +23,7 @@ nav li {
     padding: 0px;
 }
 
-.dernerPets {
+.thePets {
     display: inline-block;
     margin-right: 8px;
     margin-left: 8px;
@@ -632,7 +632,7 @@ nav a:hover {
       margin: 10px 0;
     }
   
-    .dernerPets {
+    .thePets {
       font-size: 18px;
     }
   
@@ -702,7 +702,7 @@ nav a:hover {
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 501px) {
     .indexMain h2 {
       font-size: 24px;
     }
@@ -716,7 +716,8 @@ nav a:hover {
       padding: 12px;
     }
   
-    .reallyWant li, .ruleList li, .grievanceList li, .heyGuys li, .worried li, .tigerTraining li {
-      font-size: 14px;
+    .reallyWant li, .ruleList li, .grievanceList li, .heyGuys li, .worried li, .tigerTraining li, .mangoCW {
+      font-size: 16px;
+      margin-left: 2rem;
     }
   }  
