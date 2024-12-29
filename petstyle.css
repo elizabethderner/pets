@@ -31,9 +31,13 @@ nav li {
     border: none;
     padding: 8px;
     font-family: 'Solway', Arial, sans-serif;
-    font-size: 21px;
     text-align: center;
     color: white;
+}
+
+.thePets a {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 nav a {
@@ -92,41 +96,25 @@ nav a:hover {
     margin-left: 10px;
     align-items: center;
     border: none;
-    padding: 18px;
     font-size: 18px;
-}
-
-.cookieButton {
-    background-color: #6e284e;
-}
-
-.minnieButton {
-    background-color: #226ea1;
-}
-
-.turtleButton {
-    background-color: #5a0860;
-}
-
-.nevilleButton {
-    background-color: #5f0b0b;
-}
-
-.mangoButton {
-    background-color: #d3651b;
 }
 
 .petsList a {
     color: white;
     text-decoration: none;
-    padding: 18px;
+    padding: 20px;
+    display: block;
+    background-color: inherit;
 }
-
-.petsList li:hover {
-    background-color: #013e4f;
-}
+    
+    .cookieButton a { background-color: #6e284e; }
+    .minnieButton a { background-color: #226ea1; }
+    .turtleButton a { background-color: #5a0860; }
+    .nevilleButton a { background-color: #5f0b0b; }
+    .mangoButton a { background-color: #d3651b; }
 
 .petsList a:hover {
+    background-color: #013e4f;
     color: #a9d8e5;
 }
 
@@ -632,8 +620,12 @@ nav a:hover {
       margin: 10px 0;
     }
   
+    .thePets a {
+      font-size: 22px;
+    }
+
     .thePets {
-      font-size: 18px;
+        padding: 0;
     }
   
     nav a {
@@ -713,9 +705,12 @@ nav a:hover {
   
     .petsList li {
       font-size: 16px;
-      padding: 12px;
     }
   
+    .petsList a {
+        padding: 12px;
+    }
+
     .reallyWant li, .ruleList li, .grievanceList li, .heyGuys li, .worried li, .tigerTraining li, .mangoCW {
       font-size: 16px;
       margin-left: 2rem;
