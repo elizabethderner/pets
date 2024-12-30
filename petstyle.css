@@ -120,30 +120,25 @@ nav a:hover {
 
 .indexPhotos {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: stretch;
     list-style: none;
     padding: 0;
-    margin: 0;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin: 3rem 0 2rem;
 }
 
 .indexPhotos li {
-    margin: 0 25px;
+    margin: 0 15px;
     flex: 1;
+    display: flex;
 }
 
 .indexPhotos img {
-    max-width: 200px;
-    height: auto;
-    display: block;
-    object-fit: cover;
+    max-width: 250px;
     width: 100%;
-    height: 100%;
+    height: 315px;
+    object-fit: cover !important;
 }
-
 
 /* cookie's page */
 .cookieNav {
@@ -652,15 +647,23 @@ nav a:hover {
     }
   
     .indexPhotos {
-      flex-direction: column;
-    }
-  
-    .indexPhotos li {
-      margin: 10px 0;
-    }
-  
-    .indexPhotos img {
-      max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 1rem;
+      }
+    
+      .indexPhotos li {
+        margin: 10px 0;
+        flex: none;
+      }
+    
+      .indexPhotos img {
+        max-width: 250px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+      }
     }
   
     /* Content pages */
@@ -701,6 +704,14 @@ nav a:hover {
   
     .indexMain h3 {
       font-size: 18px;
+    }
+
+    .indexPhotos {
+        margin-bottom: 0;
+    }
+
+    .indexPhotos img {
+        max-width: 220px;
     }
   
     .petsList li {
